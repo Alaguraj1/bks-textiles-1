@@ -35,10 +35,10 @@ const AboutPage = () => {
         <PageBannerTitle
           key={mediaLink?.href}
           mediaLink={mediaLink?.href}
-          pageTitle="Why BKS Services"
+          pageTitle="Why BKS"
           homePageUrl="/"
           homePageText="Home"
-          activePageText="Why BKS Services"
+          activePageText="Why"
           imgClass="/images/Why-bks/Banner.jpg"
         />
       ))}
