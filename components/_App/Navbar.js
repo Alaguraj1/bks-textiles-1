@@ -116,57 +116,7 @@ const Navbar = () => {
                     </Link>
                   </li>
 
-                  <li className="nav-item">
-                    <Link
-                      href="/why-bks"
-                      className={`nav-link ${
-                        currentPath == "/why-bks/" && "active"
-                      }`}
-                    >
-                      Why BKS Services <i className="fas fa-chevron-down"></i>
-                    </Link>
-                    <ul className="dropdown-menu">
-                      {/* <li className="nav-item">
-                        <Link
-                          href="/why-bks"
-                          className={`nav-link ${currentPath == "/why-bks/" && "active"
-                            }`}
-                        >
-                          Why BKS Services
-                        </Link>
-                      </li> */}
-                      <li className="nav-item">
-                        <Link
-                          href="/research-develeopment/"
-                          className={`nav-link ${
-                            currentPath == "/research-develeopment/" && "active"
-                          }`}
-                        >
-                          Research & Develeopment
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link
-                          href="/quality-practices"
-                          className={`nav-link ${
-                            currentPath == "/quality-practices/" && "active"
-                          }`}
-                        >
-                          Quality Practices
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link
-                          href="/sustainability"
-                          className={`nav-link ${
-                            currentPath == "/sustainability/" && "active"
-                          }`}
-                        >
-                          Sustainability
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
+                  
 
                   <li className="nav-item">
                     <Link
@@ -297,6 +247,57 @@ const Navbar = () => {
                     >
                       Certifications
                     </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      href="/why-bks"
+                      className={`nav-link ${
+                        currentPath == "/why-bks/" && "active"
+                      }`}
+                    >
+                      Why BKS <i className="fas fa-chevron-down"></i>
+                    </Link>
+                    <ul className="dropdown-menu">
+                      {/* <li className="nav-item">
+                        <Link
+                          href="/why-bks"
+                          className={`nav-link ${currentPath == "/why-bks/" && "active"
+                            }`}
+                        >
+                          Why BKS Services
+                        </Link>
+                      </li> */}
+                      <li className="nav-item">
+                        <Link
+                          href="/research-develeopment/"
+                          className={`nav-link ${
+                            currentPath == "/research-develeopment/" && "active"
+                          }`}
+                        >
+                          Research & Development
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/quality-practices"
+                          className={`nav-link ${
+                            currentPath == "/quality-practices/" && "active"
+                          }`}
+                        >
+                          Quality Practices
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/sustainability"
+                          className={`nav-link ${
+                            currentPath == "/sustainability/" && "active"
+                          }`}
+                        >
+                          Sustainability
+                        </Link>
+                      </li>
+                    </ul>
                   </li>
                   <li className="nav-item">
                     <Link
