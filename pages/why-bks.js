@@ -38,7 +38,7 @@ const AboutPage = () => {
           pageTitle="Why BKS"
           homePageUrl="/"
           homePageText="Home"
-          activePageText="Why"
+          activePageText="Why BKS"
           imgClass="/images/Why-bks/Banner.jpg"
         />
       ))}
