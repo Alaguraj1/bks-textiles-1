@@ -50,7 +50,7 @@ const AboutContent = ({ data }) => {
   // };
 
   return (
-    <div className="about-area">
+   
       <div className="container-fluid">
         <div>
           <div
@@ -58,7 +58,7 @@ const AboutContent = ({ data }) => {
           ></div>
         </div>
       </div>
-    </div>
+   
   );
 };
 
