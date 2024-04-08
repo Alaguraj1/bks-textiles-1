@@ -1757,7 +1757,7 @@ Partner Area CSS
   background: #fafafa;
   text-align: center;
   position: relative;
-  margin-bottom: 10px;
+/*   margin-bottom: 10px; */
 }
 .partner-item a::before, .partner-item a::after {
   content: "";
