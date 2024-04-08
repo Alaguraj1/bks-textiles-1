@@ -1757,7 +1757,7 @@ Partner Area CSS
   background: #fafafa;
   text-align: center;
   position: relative;
-/*   margin-bottom: 10px; */
+  margin-bottom: 10px;
 }
 .partner-item a::before, .partner-item a::after {
   content: "";
@@ -5023,6 +5023,7 @@ padding: 50px 0px 50px 0px;
       }
 }
 @media(max-width:992px) {
+  .single-services-box img{margin-top:0px !important; margin-bottom: 0px;}
   .container-fluid img{margin-top:30px; margin-bottom: 30px;}
   .container-fluid h2{margin-top:25px;}
   .container-fluid h3{margin-top:25px;}
@@ -5109,6 +5110,7 @@ padding: 50px 0px 50px 0px;
 /* .bg-yellow > div p{font-size:20px;} */
 .bg-white {background-color: #ffffff; padding: 0 8%;}
 .bg-white-1 {background-color: #ffffff; padding: 4% 8%;}
+.bg-white-2 {background-color: #ffffff; padding: 0%;}
 /* .bg-yellow >  div p{font-size:20px;} */
 .bg-white-alter {background-color: #ffffff; padding:0 8% 5% 8%;}
 .bg-white-pb {background-color: #ffffff; padding:5% 8% 0 8%;}
@@ -5370,6 +5372,10 @@ ul.milestone-list li span{color: #57647c;}
     font-size: 23px;
     font-weight: 700;
 }
-
-
 .partner-item  b{font-size:18px;}
+
+@media(max-width:720px)  {
+.single-services-box{ width: 100%;}
+.single-services-box img{margin-top:0px !important;}
+}
+
